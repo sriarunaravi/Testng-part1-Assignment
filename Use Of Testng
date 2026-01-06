@@ -1,0 +1,9 @@
+TestNG is a popular testing framework for Java,designed to make testing easier,more flexible and more powerful. 
+It's primarily used for unit testing but also supports integration,functional and end-to-end testing.
+In TestNG,the @Test annotation is used to mark a method as a test method.Any method annotated with @Test will be executed as a part of the TestNG test suite. 
+
+Test method execution:The method annotated with @Test is executed as a test case.
+
+TestNG framework:When you run your test suite,TestNG will identify all methods annotated with @Test and execute them in the order specified or based on dependency and priority configurations.
+
+Assertions:Inside the test method,generally use assertions to verify whether the expected results match the actual outcomes
